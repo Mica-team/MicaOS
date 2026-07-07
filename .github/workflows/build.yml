@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir android
           cd android
-          repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
+          repo init -u https://github.com/LineageOS/android.git -b lineage-23.2
 
       - name: Copy local manifests
         run: |
