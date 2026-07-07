@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <project
+        name="MicaTeam/device_realme_RMX1851"
+        path="device/realme/RMX1851"
+        remote="github"
+        revision="main" />
+
+    <project
+        name="MicaTeam/android_vendor_RMX1851"
+        path="vendor/realme/RMX1851"
+        remote="github"
+        revision="main" />
+
+    <project
+        name="MicaTeam/kernel_realme_sdm710"
+        path="kernel/realme/sdm710"
+        remote="github"
+        revision="main" />
+
+</manifest>
