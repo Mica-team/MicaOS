@@ -32,7 +32,7 @@ jobs:
       - name: Copy local manifests
         run: |
           mkdir -p android/.repo/local_manifests
-         cp .local_manifests/roomservice.xml android/.repo/local_manifests/
+          cp .local_manifests/roomservice.xml android/.repo/local_manifests/
 
       - name: Sync
         run: |
