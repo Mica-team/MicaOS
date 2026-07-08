@@ -1,8 +1,11 @@
 name: Build MicaOS
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
-
+  
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -28,7 +31,7 @@ jobs:
 
       - name: Copy local manifests
         run: |
-          mkdir -p android/.repo/local_manifest
+          mkdir -p android/.repo/local_manifests
          cp .local_manifests/roomservice.xml android/.repo/local_manifests/
 
       - name: Sync
